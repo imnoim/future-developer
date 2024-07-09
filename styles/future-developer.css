@@ -33,6 +33,11 @@ body {
     text-align: center;
 }
 
+section {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* nav styles */
 
 .navbar {
@@ -104,5 +109,74 @@ body {
     font-weight: 600;
     line-height: 23px;
     background-color: #0D1321;
+    cursor: pointer;
+}
+
+/* why web dev section styles */
+
+.why-web-dev-section {
+    height: 1350px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin-bottom: 90px;
+}
+
+.why-web-dev-content {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.why-web-dev-content h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.layer-item-1, .layer-item-2, .layer-item-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layer-item-1, .layer-item-3 {
+    background-color: #fff;
+    padding: 48px;
+}
+
+.layer-item-2 {
+    padding: 48px;
+}
+
+.layer-item-1-text,
+.layer-item-2-text,
+.layer-item-3-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.layer-item-1-text h5,
+.layer-item-2-text h5,
+.layer-item-3-text h5 {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.layer-items .learn-more-btn {
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+    padding: 12px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background-color: #fff;
     cursor: pointer;
 }
