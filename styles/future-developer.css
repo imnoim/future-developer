@@ -188,7 +188,6 @@ section {
 
 .my-inspiration-container {
     height: 875px;
-    margin: 0 auto;
     margin-bottom: 150px;
 }
 
@@ -221,3 +220,72 @@ section {
     border-radius: 16px;
 }
 
+/* current target section styles */
+
+.current-target-container {
+    height: 520px;
+    margin-bottom: 110px;
+}
+
+.current-target-text {
+    width: 852px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.current-target-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.current-target-item {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.current-target-items .bg-1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target-items .bg-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.current-target-items .bg-3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target-img img {
+    width: 56px;
+    height: 56px;
+}
+
+.current-target-item h4 {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.current-target-item a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
