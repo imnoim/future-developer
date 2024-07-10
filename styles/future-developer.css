@@ -137,13 +137,16 @@ section {
     margin-bottom: 24px;
 }
 
-.layer-item-1, .layer-item-2, .layer-item-3 {
+.layer-item-1,
+.layer-item-2,
+.layer-item-3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.layer-item-1, .layer-item-3 {
+.layer-item-1,
+.layer-item-3 {
     background-color: #fff;
     padding: 48px;
 }
@@ -180,3 +183,41 @@ section {
     background-color: #fff;
     cursor: pointer;
 }
+
+/* my inspiration section styles */
+
+.my-inspiration-container {
+    height: 875px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.my-inspiration-text {
+    width: 852px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.my-inspiration-text h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.my-inspiration-video {
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+}
+
+.my-inspiration-video iframe {
+    border-radius: 16px;
+}
+
