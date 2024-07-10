@@ -38,6 +38,28 @@ section {
     margin: 0 auto;
 }
 
+.next-target-intro,
+.current-target-text,
+.my-inspiration-text {
+    width: 852px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.current-target-item a,
+.next-target-item-text a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
 /* nav styles */
 
 .navbar {
@@ -191,17 +213,6 @@ section {
     margin-bottom: 150px;
 }
 
-.my-inspiration-text {
-    width: 852px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 24px;
-    margin-bottom: 48px;
-}
-
 .my-inspiration-text h3 {
     font-size: 32px;
     font-weight: 800;
@@ -225,17 +236,6 @@ section {
 .current-target-container {
     height: 520px;
     margin-bottom: 110px;
-}
-
-.current-target-text {
-    width: 852px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 24px;
-    margin-bottom: 48px;
 }
 
 .current-target-items {
@@ -282,10 +282,42 @@ section {
     line-height: 36px;
 }
 
-.current-target-item a {
-    color: #0D1321;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    text-decoration-line: underline;
+/* next target styles */
+
+.next-target-container {
+    height: 920px;
+    margin-bottom: 50px;
+}
+
+.next-target-intro h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.next-target-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.next-target-item {
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    gap: 24px;
+}
+
+.next-target-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.next-target-item-text h3 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
 }
