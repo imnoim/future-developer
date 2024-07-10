@@ -321,3 +321,69 @@ section {
     font-weight: 800;
     line-height: 36px;
 }
+
+/* need support section styles */
+
+.need-support-container {
+    height: 313px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 64px 48px;
+    margin-bottom: 80px;
+}
+
+.need-support-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.need-support-content h3 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.need-support-content p {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 26px;
+    width: 730px;
+}
+
+.need-support-form input[type="text"] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: #fff;
+    padding: 19px 20px;
+    width: 500px;
+    color: rgba(13, 19, 33, 0.4);
+}
+
+.need-support-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.need-support-form input[type="submit"] {
+    padding: 16px 20px;
+    width: 120px;
+    border-radius: 8px;
+    background: #fff;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: none;
+}
