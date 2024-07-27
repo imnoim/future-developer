@@ -458,6 +458,10 @@ section {
 
     /* nav styles */
 
+    .navbar {
+        padding: 0px 1rem;
+    }
+
     .navbar h4 {
         font-size: 1.5rem;
     }
@@ -475,7 +479,7 @@ section {
     }
 
     .banner-content {
-        gap: 15px;
+        gap: 10px;
     }
 
     .coder-img img {
@@ -483,8 +487,12 @@ section {
         height: 200px;
     }
 
+    .banner-content {
+        padding: 0px 10px;
+    }
+
     .banner-content h1 {
-        font-size: 2.4rem;
+        font-size: 2.3rem;
     }
 
     .banner-content .contact-with-me-btn {
@@ -540,7 +548,7 @@ section {
     /* my inspiration section styles */
 
     .my-inspiration-container {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         padding: 30px;
         height: 750px;
     }
@@ -590,6 +598,13 @@ section {
         padding: 20px;
     }
 
+    .next-target-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* need support section styles */
 
     .need-support-container {
@@ -629,12 +644,16 @@ section {
 
     .footer-container {
         height: auto;
-        padding: 30px 50px;
+        padding: 30px 30px;
         gap: 16px;
     }
 
     .footer-social a {
         margin-right: 10px;
+    }
+
+    .footer-container h4 {
+        font-size: 16px;
     }
 
 }
