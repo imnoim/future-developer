@@ -30,7 +30,6 @@ body {
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
-
 }
 
 .text-center {
@@ -67,10 +66,11 @@ section {
 /* nav styles */
 
 .navbar {
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 100px;
+    margin: 30px auto;
 }
 
 .navbar h4 {
@@ -381,6 +381,10 @@ section {
     color: rgba(13, 19, 33, 0.4);
 }
 
+.need-support-form input[type=text]:focus {
+    outline: 0;
+}
+
 .need-support-form {
     display: flex;
     align-items: center;
@@ -422,4 +426,215 @@ section {
 
 .footer-social a {
     margin-right: 10px;
+}
+
+/* mobile device styles */
+
+@media screen and (max-width: 576px) {
+
+    /* common styles */
+
+    .layer-item-1,
+    .layer-item-2,
+    .layer-item-3,
+    .current-target-items,
+    .need-support-form,
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .p-tag {
+        font-size: 14px;
+    }
+
+    .next-target-intro,
+    .current-target-text,
+    .my-inspiration-text {
+        width: 100%;
+        gap: 1rem;
+        margin-bottom: 30px;
+        padding: 0px 30px;
+    }
+
+    /* nav styles */
+
+    .navbar h4 {
+        font-size: 1.5rem;
+    }
+
+    .navbar .download-resume-btn {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+
+    /* banner-container styles */
+
+    .banner-container {
+        height: 652px;
+        margin-bottom: 50px;
+    }
+
+    .banner-content {
+        gap: 15px;
+    }
+
+    .coder-img img {
+        width: 200.28px;
+        height: 200px;
+    }
+
+    .banner-content h1 {
+        font-size: 2.4rem;
+    }
+
+    .banner-content .contact-with-me-btn {
+        padding: 12px 18px;
+        font-size: 1rem;
+    }
+
+    /* why web dev section styles */
+
+    .why-web-dev-section {
+        height: auto;
+        padding: 30px 30px;
+        margin-bottom: 50px;
+    }
+
+    .why-web-dev-content {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .why-web-dev-content h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .layer-item-1,
+    .layer-item-3 {
+        padding: 30px;
+    }
+
+    .layer-item-2 {
+        padding: 30px;
+    }
+
+    .layer-item-1-text,
+    .layer-item-2-text,
+    .layer-item-3-text {
+        gap: 1rem;
+    }
+
+    .layer-item-1-text h5,
+    .layer-item-2-text h5,
+    .layer-item-3-text h5 {
+        font-size: 1.3rem;
+    }
+
+    .layer-items .learn-more-btn {
+        padding: 10px 16px;
+        font-size: 1rem;
+    }
+
+    /* my inspiration section styles */
+
+    .my-inspiration-container {
+        margin-bottom: 50px;
+        padding: 30px;
+        height: 750px;
+    }
+
+    .my-inspiration-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .my-inspiration-video {
+        width: 100%;
+        height: 500px;
+        padding: 30px;
+    }
+
+    .my-inspiration-video iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* current target section styles */
+
+    .current-target-container {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .current-target-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .current-target-items {
+        gap: 1rem;
+    }
+
+    /* next target styles */
+
+    .next-target-container {
+        height: auto;
+        padding: 0px 30px;
+    }
+
+    .next-target-intro h3 {
+        font-size: 1.5rem;
+    }
+
+    .next-target-item {
+        padding: 20px;
+    }
+
+    /* need support section styles */
+
+    .need-support-container {
+        height: auto;
+        padding: 40px 28px;
+        margin-bottom: 80px;
+    }
+
+    .need-support-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .need-support-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .need-support-content p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .need-support-form input[type="text"] {
+        width: 400px;
+    }
+
+    .need-support-form input[type="submit"] {
+        padding: 12px 16px;
+        width: 100px;
+        font-size: 1rem;
+    }
+
+    /* footer styles */
+
+    .footer-container {
+        height: auto;
+        padding: 30px 50px;
+        gap: 16px;
+    }
+
+    .footer-social a {
+        margin-right: 10px;
+    }
+
 }
